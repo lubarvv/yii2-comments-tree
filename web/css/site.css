@@ -1,0 +1,110 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+
+#tree-comments-wrap {
+
+}
+
+#tree-comments-wrap > .tree-comment-wrap {
+    margin-left: 0;
+}
+
+.tree-comment-wrap {
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.tree-comments-load-children {
+    border: 1px solid #eee;
+    padding: 3px 6px;
+    display: table;
+    cursor: pointer;
+    background: #fafafa;
+}
+
+.tree-comments-load-children .show-comments {
+    color: #11c3bb;
+}
+
+.tree-comments-load-children .close-comments {
+    color: #c34c5a;
+}
+
+.tree-comments-load-children:hover {
+    background: #f0f0f0;
+}
+
+.tree-comment-wrap:hover > .tree-comments, .tree-comment-wrap:hover > .tree-comments-load-children {
+    border-color: #999;
+}
+
+.tree-comments {
+    border-left: 1px dotted #eee;
+}
+
+.tree-comment:hover > .tree-comment-head > .actions {
+    visibility: visible;
+}
+
+.tree-comment-head .username {
+    font-weight: 800;
+    font-size: 12px;
+    color: #04c364;
+    margin-right: 10px;
+}
+
+.tree-comment-head .date {
+    font-size: 10px;
+    color: #777;
+    margin-right: 10px;
+}
+
+.tree-comment-head .actions {
+    visibility: hidden;
+}
+
+.tree-comment-head .actions a {
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.tree-comment-text {
+    font-size: 14px;
+    color: #555;
+}
+
+.tree-comment-text.deleted {
+    color: #8a8a8a;
+    font-style: italic;
+}
+
+.tree-comment-add {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.tree-comment-form {
+    width: 350px;
+    margin: 10px 0;
+}
